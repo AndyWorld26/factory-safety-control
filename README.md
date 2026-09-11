@@ -46,3 +46,14 @@
 ```bash
 git clone [https://github.com/ВАШ_ЛОГИН/factory-safety-control.git](https://github.com/ВАШ_ЛОГИН/factory-safety-control.git)
 cd factory-safety-control
+```
+### 2. Установка зависимостей
+```bash
+pip install ultralytics opencv-python pandas matplotlib openpyxl numpy
+```
+### 3. Запуск приложения
+```bash
+python main.py
+```
+## 🎥 Входные материалы
+В репозитории представлен тестовый видеофайл video1.mp4, используемый для проверки работы алгоритмов детекции и трекинга в условиях производственного участка.
